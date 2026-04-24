@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Web</title>
+</head>
+<body>
+    <form action="procesar.php" method="POST">
+        <li><label>Nombre:</label></li>
+        <input type="text" name="nombre">
+        
+        <li><label>Edad:</label></li>
+        <input type="number" name="edad">
+
+        <li><button type="submit">Enviar al servidor</button></li>
+    </form>
+
+<div class="product-card">
+<div class="image-card" id="imageCard" 
+        style="background-image: url('gray-benz.webp');">
+        </div>
+<h2>Mercedes Benz C300</h2>
+<div class="colors">
+    <span class="red-btn">🔴Rojo</span>
+<span class="gray-btn">⚪Gris</span>
+</div>
+<button id="cartButton">
+Agregar al carrito
+</button>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
